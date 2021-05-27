@@ -25,13 +25,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
-  <component name="RunManager" selected="Application.handle_exception">
-    <configuration name="handle_exception" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.handle_exception" />
+  <component name="RunManager" selected="Application.VaultExample">
+    <configuration name="FirstWayToCreateThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example_1.FirstWayToCreateThread" />
       <module name="example_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.*" />
+          <option name="PATTERN" value="example_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -39,12 +39,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="simple_example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.simple_example" />
+    <configuration name="HandleException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example_1.HandleException" />
       <module name="example_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.*" />
+          <option name="PATTERN" value="example_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecondWayToCreateThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example_2.SecondWayToCreateThread" />
+      <module name="example_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VaultExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example_2.VaultExample" />
+      <module name="example_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -54,8 +80,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.handle_exception" />
-        <item itemvalue="Application.simple_example" />
+        <item itemvalue="Application.VaultExample" />
+        <item itemvalue="Application.SecondWayToCreateThread" />
+        <item itemvalue="Application.HandleException" />
+        <item itemvalue="Application.FirstWayToCreateThread" />
       </list>
     </recent_temporary>
   </component>
@@ -69,7 +97,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622036388535</updated>
-      <workItem from="1622036391823" duration="1184000" />
+      <workItem from="1622036391823" duration="3970000" />
     </task>
     <servers />
   </component>
@@ -77,25 +105,41 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="653" y="253" key="#com.intellij.ide.util.MemberChooser" timestamp="1622037452927">
+    <state x="653" y="253" key="#com.intellij.ide.util.MemberChooser" timestamp="1622038024395">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="653" y="253" key="#com.intellij.ide.util.MemberChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1622037452927" />
-    <state width="1638" height="280" key="GridCell.Tab.0.bottom" timestamp="1622037563146">
+    <state x="653" y="253" key="#com.intellij.ide.util.MemberChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1622038024395" />
+    <state width="1638" height="280" key="GridCell.Tab.0.bottom" timestamp="1622099711340">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="280" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1622037563146" />
-    <state width="1638" height="280" key="GridCell.Tab.0.center" timestamp="1622037563145">
+    <state width="1638" height="280" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1622099711340" />
+    <state width="1638" height="280" key="GridCell.Tab.0.center" timestamp="1622099711340">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="280" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1622037563145" />
-    <state width="1638" height="280" key="GridCell.Tab.0.left" timestamp="1622037563144">
+    <state width="1638" height="280" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1622099711340" />
+    <state width="1638" height="280" key="GridCell.Tab.0.left" timestamp="1622099711339">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="280" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1622037563144" />
-    <state width="1638" height="280" key="GridCell.Tab.0.right" timestamp="1622037563145">
+    <state width="1638" height="280" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1622099711339" />
+    <state width="1638" height="280" key="GridCell.Tab.0.right" timestamp="1622099711340">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="280" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1622037563145" />
+    <state width="1638" height="280" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1622099711340" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/example_2/VaultExample.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/example_2/VaultExample.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

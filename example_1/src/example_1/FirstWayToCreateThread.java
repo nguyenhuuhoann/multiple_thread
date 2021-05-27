@@ -1,6 +1,6 @@
-package main;
+package example_1;
 
-public class simple_example {
+public class FirstWayToCreateThread {
     public static void main(String[] args) throws InterruptedException {
         Thread thread = new Thread(new Runnable() {
             @Override

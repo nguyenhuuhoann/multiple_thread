@@ -1,6 +1,6 @@
-package main;
+package example_1;
 
-public class handle_exception {
+public class HandleException {
     public static void main(String[] args) {
         Thread thread = new Thread(() -> {
            throw  new RuntimeException("Intentional Exception");
