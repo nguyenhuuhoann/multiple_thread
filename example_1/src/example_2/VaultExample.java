@@ -15,6 +15,13 @@ public class VaultExample {
         threadList.add(new DescendingHackerThread(vault));
         threadList.add(new PoliceThread());
 
+        List<Runnable> tasks = new ArrayList<>();
+        tasks.add(new AscendingHackerThread(vault));
+
+        for (Runnable thread : tasks){
+            thread.run();
+        }
+
         for (Thread thread : threadList){
             thread.start();
         }
